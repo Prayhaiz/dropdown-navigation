@@ -1,0 +1,154 @@
+:root {
+    --Almost-White: hsl(0, 0%, 98%);
+    --Medium-Gray: hsl(0, 0%, 41%);
+    --Almost-Black: hsl(0, 0%, 8%);
+
+    --Epilogue: 'Epilogue', sans-serif;
+
+    --medium: 18px;
+}
+
+*,
+*::before ,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: var(--Epilogue);
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+
+.container {
+    width: 90%;
+    max-width: 900px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper {
+    position: relative;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+}
+
+  /* .dark--side {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5) !important; 
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5) !important;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    transition: 0.5s;
+    /* width: 70%;
+    transform: scaleY(1.5);
+    transition: 300ms ease-in-out; */
+} */
+
+
+  /* .active .sidebar  {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5) !important;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    transition: 0.5s;
+    /* width: 70%; */
+    border: 2px solid red;
+    /* transform: scaleY(1.5);
+    transition: 300ms ease-in-out; 
+}  */
+ 
+
+.hero--image {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.container .row {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tittle {
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: .5em;
+    font-weight: 700;
+}
+
+.snap--text {
+    font-size: var(--medium);
+    line-height: 1.5;
+    max-width: 100%;
+    width: 26rem;
+    padding: 0 1em;
+    font-weight: 500;
+    opacity: .65;
+    text-align: center;
+
+}
+
+.btn {
+    font-weight: 700;
+    padding: 1em 1.5em;
+    margin-top: 1em;
+    border-radius: 10px;
+    background-color: var(--Almost-Black);
+    color: var(--Almost-White);
+}
+
+
+
+.watermarks {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2em;
+}
+
